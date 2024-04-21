@@ -1,0 +1,3 @@
+since the files are too large to directly shown in the github, we compress them into three files, namely "train.zip", "text.zip" and "opinMatrixpca8.zip" in the Sports datasets.
+
+Please extract these files in the fold "datasets/Sports/", and then you can run our model.
