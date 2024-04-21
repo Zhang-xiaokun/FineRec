@@ -11,7 +11,7 @@ parser.add_argument('--dataset', default='Beauty', help='dataset name: Beauty/Ce
 parser.add_argument('--epoch', type=int, default=10, help='number of epochs to train for')
 parser.add_argument('--batchSize', type=int, default=512, help='input batch size 512')
 parser.add_argument('--embSize', type=int, default=128, help='whole user/item emb size')
-parser.add_argument('--chunk_embSize', type=int, default=16, help='attr, item, user, opinion')
+parser.add_argument('--chunk_embSize', type=int, default=8, help='attr, item, user, opinion')
 parser.add_argument('--ui_layer', type=float, default=1, help='the number of aggregating item/user embedding')
 parser.add_argument('--graph_layer', type=float, default=1, help='the number of aggregating item/user embedding with graph')
 parser.add_argument('--whole_layer', type=float, default=1, help='the number of aggregating co-occurren item/user embedding')
